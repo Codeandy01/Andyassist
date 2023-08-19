@@ -1,0 +1,71 @@
+# Andy Assist - A Virtual Assistant Chrome Extension
+
+Andy Assist is a Chrome extension that brings a friendly virtual assistant to your browsing experience. This extension allows you to have an interactive assistant on your browser tabs that can follow your mouse movements, provide helpful information, and even track your clicks to assist you with various tasks.
+
+## Features
+
+- **Interactive Assistant:** Andy Assist presents an animated virtual assistant in the corner of your browser tab. The assistant's eyes follow your mouse movements, creating a sense of engagement.
+
+- **Idle and Tracking States:** The assistant has two states: Idle and Tracking. In the Idle state, the assistant looks at you, and in the Tracking state, it follows your mouse movements for a set duration after you click anywhere on the page.
+
+- **Automated Transition:** The assistant will automatically switch from the Tracking state back to the Idle state after a designated time, returning its gaze to you.
+
+## Getting Started
+
+1. **Installation:**
+   - Clone or download this repository to your local machine.
+   - Open Chrome and go to `chrome://extensions/`.
+   - Enable "Developer mode" in the top right corner.
+   - Click "Load unpacked" and select the directory containing the extension files.
+
+2. **Usage:**
+   - After installation, open any website in a new tab.
+   - You will see the Andy Assist virtual assistant in the bottom right corner of the tab.
+   - Click anywhere on the page to activate the Tracking state. The assistant's eyes will follow your mouse movements for a short time before returning to the Idle state.
+
+3. **Customization:**
+   - You can customize the appearance and behavior of the assistant by modifying the CSS and JavaScript files in the extension directory.
+
+## Contributions
+
+Contributions to Andy Assist are welcome! Feel free to submit pull requests or open issues for any improvements or bug fixes you'd like to contribute.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+## Credits
+
+Andy Assist was developed by Abhimanyu Jha.
+
+
+## Vision
+Join my ambitious project! Building an extension that watches and learns from user interactions, and evolves a character based on those interactions, adds a dynamic and personalized element to your virtual assistant.
+
+To achieve such capabilities, We likely need to incorporate machine learning techniques and data analysis. Here are a few steps you might consider:
+
+1. **Data Collection and Tracking:**
+   Implement a mechanism to collect user interactions and activities while using the browser. This could include tracking visited websites, clicked links, search queries, and more.
+
+2. **Data Analysis:**
+   Process the collected data to identify patterns, preferences, and user behaviors. This analysis will form the basis for your assistant's suggestions and character evolution.
+
+3. **Machine Learning:**
+   Utilize machine learning algorithms to understand user preferences and predict potential actions. This could involve recommendation systems, sentiment analysis, and more advanced techniques.
+
+4. **User Feedback:**
+   Incorporate mechanisms for users to provide feedback on the assistant's suggestions. This feedback loop can help refine and improve the assistant's recommendations over time.
+
+5. **Character Evolution:**
+   Implement a system where the character's appearance, behavior, and responses evolve based on the user's interactions and feedback. This could include changes in visual elements, tone of speech, and the types of suggestions provided.
+
+6. **Privacy and Ethics:**
+   Ensure that your extension respects user privacy and adheres to ethical guidelines. Clearly communicate how data is collected, used, and stored, and provide options for users to control their data.
+
+7. **UI and UX Design:**
+   Design a user-friendly interface that clearly communicates the assistant's suggestions and interactions. Visual cues can help users understand the assistant's evolving character and capabilities.
+
+8. **Testing and Iteration:**
+   Continuously test and iterate on your extension to improve its accuracy, usefulness, and user experience. Gather feedback from real users to refine the assistant's features.
